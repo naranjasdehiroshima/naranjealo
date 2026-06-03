@@ -156,6 +156,74 @@ FUENTES = [
         "idioma":   "en",
     },
 
+    # ── TV / RADIO UNIVERSIDAD ────────────────────────────────────────────────
+    # TV UNAM: YouTube RSS (canal verificado jun-2026, mezcla cultura/ciencia/UNAM)
+    {
+        "url":      "https://www.youtube.com/feeds/videos.xml?channel_id=UCrnbT_nd9Dvg87PXefx7pQA",
+        "cat_pref": "cultura",
+        "nombre":   "TV UNAM",
+        "idioma":   "es",
+    },
+    # Horizonte 107.9: WordPress sin feed de posts activo (jun-2026).
+    # Su contenido vive en la web pero no publican artículos en CMS.
+    # Pendiente: si activan blog, URL sería https://horizonte.fm/feed/
+    # Radio UNAM: servidor con timeout persistente (jun-2026).
+    # Pendiente reintento cuando restauren servicio.
+
+    # ── FILMOTECAS MUNDIALES / RESTAURACIONES ────────────────────────────────
+    # BFI (British Film Institute) — noticias, restauraciones, retrospectivas
+    {
+        "url":      "https://www.bfi.org.uk/rss-feed",
+        "cat_pref": "cine",
+        "nombre":   "BFI (British Film Institute)",
+        "idioma":   "en",
+    },
+    # Museum of the Moving Image NYC — archivo, tecnología, exhibición
+    {
+        "url":      "https://movingimage.org/feed/",
+        "cat_pref": "cine",
+        "nombre":   "Museum of the Moving Image",
+        "idioma":   "en",
+    },
+
+    # ── PERIODISMO CULTURAL (ESPAÑA) ─────────────────────────────────────────
+    # El Salto Diario: periodismo cooperativo, sección cultura/global activa
+    {
+        "url":      "https://www.elsaltodiario.com/general/feed",
+        "cat_pref": "cultura",
+        "nombre":   "El Salto Diario",
+        "idioma":   "es",
+    },
+
+    # ── RADIO ─────────────────────────────────────────────────────────────────
+    # Horizonte Jazz 107.9 FM (IMER) — noticias y conciertos de jazz/world music
+    # Sitio real: imer.mx/horizonte (no horizonte.fm, que es una radio argentina)
+    {
+        "url":      "https://www.imer.mx/horizonte/feed/",
+        "cat_pref": "música",
+        "nombre":   "Horizonte Jazz 107.9",
+        "idioma":   "es",
+    },
+
+    # Radio UNAM — noticias, cultura, ciencia (feed confirmado jun-2026)
+    # Nota: el servidor bloquea requests desde IPs externas pero el feed
+    # es accesible desde navegador. GitHub Actions puede tener el mismo problema;
+    # si falla silenciosamente, usar feedparser con headers de navegador completos.
+    {
+        "url":      "https://www.radio.unam.mx/?feed=rss2",
+        "cat_pref": "cultura",
+        "nombre":   "Radio UNAM",
+        "idioma":   "es",
+    },
+
+    # ── PENDIENTES (sin RSS funcional a jun-2026) ─────────────────────────────
+    # Canal 14 / Once TV: timeouts persistentes — su YouTube (@OnceMexico)
+    #   tiene contenido variado sin foco cultural claro.
+    # Horizonte 107.9: sin feed de posts. Considerar scraping manual de agenda.
+    # Radio UNAM: timeout persistente. Monitorear.
+    # Cinémathèque Française, Eye Filmmuseum, Eastman: sin RSS accesible.
+    #   Alternativa: suscribirse a sus newsletters y forwardear a un RSS propio.
+
     # ── CIENCIA / NATURALEZA ──────────────────────────────────────────────────
     {
         "url":      "https://www.sciencedaily.com/rss/top/science.xml",
@@ -295,7 +363,11 @@ def extraer_imagen(entry) -> str:
 def scrape_fuente(f: dict) -> list[dict]:
     print(f"  → {f['nombre']}", end="", flush=True)
     try:
-        feed = feedparser.parse(f["url"])
+        # Usamos headers de navegador real para evitar bloqueos (ej. Radio UNAM)
+        feed = feedparser.parse(f["url"], request_headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+            "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        })
     except Exception as e:
         print(f"  ✗ {e}")
         return []

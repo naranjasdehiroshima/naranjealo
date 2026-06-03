@@ -1,39 +1,52 @@
 #!/usr/bin/env python3
 """
-build_index.py
-Lee articulos.json y cartelera.json y genera index.html.
-Lo llama GitHub Actions después de cada scraping.
-También puedes correrlo tú manualmente:
-  python3 build_index.py
+build_index.py — inyecta articulos.json y cartelera.json en index.html.
+No necesita template — lee el index.html existente y reemplaza los datos.
+GitHub Actions lo corre después de los scrapers.
+También funciona localmente: python3 build_index.py
 """
 import json, re
 from pathlib import Path
 
 def clean(s):
-    if not s: return ''
-    s = re.sub(r'&#\d+;', ' ', s)
-    s = re.sub(r'&[a-zA-Z]+;', ' ', s)
-    return re.sub(r'\s+', ' ', s).strip()
+    if not s: return ""
+    s = re.sub(r"&#\d+;", " ", s)
+    s = re.sub(r"&[a-zA-Z]+;", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
 
 def build():
-    with open('articulos.json', encoding='utf-8') as f:
-        articulos = json.load(f)
-    with open('cartelera.json', encoding='utf-8') as f:
-        cartelera = json.load(f)
+    # Cargar datos
+    with open("articulos.json", encoding="utf-8") as f:
+        art = json.load(f)
+    with open("cartelera.json", encoding="utf-8") as f:
+        cart = json.load(f)
 
-    for a in articulos:
-        a['titulo']  = clean(a['titulo'])
-        a['resumen'] = clean(a.get('resumen',''))
+    for a in art:
+        a["titulo"]  = clean(a["titulo"])
+        a["resumen"] = clean(a.get("resumen", ""))
+    art = [a for a in art if a.get("categoria") != "espectáculos"]
 
-    articulos = [a for a in articulos if a.get('categoria') != 'espectáculos']
+    AJ = json.dumps(art,  ensure_ascii=False)
+    CJ = json.dumps(cart, ensure_ascii=False)
 
-    art_json  = json.dumps(articulos, ensure_ascii=False)
-    cart_json = json.dumps(cartelera, ensure_ascii=False)
+    # Leer index.html actual
+    html = Path("index.html").read_text(encoding="utf-8")
 
-    template = Path('index.template.html').read_text(encoding='utf-8')
-    html = template.replace('__ART_JSON__', art_json).replace('__CART_JSON__', cart_json)
-    Path('index.html').write_text(html, encoding='utf-8')
-    print(f"✓ index.html generado  ({len(articulos)} artículos, {len(cartelera)} películas)")
+    # Reemplazar los bloques de datos — busca las líneas const ART = ... y const CART = ...
+    # y las reemplaza con los datos frescos
+    html = re.sub(
+        r'const ART\s*=\s*\[.*?\];',
+        f'const ART  = {AJ};',
+        html, flags=re.DOTALL
+    )
+    html = re.sub(
+        r'const CART\s*=\s*\[.*?\];',
+        f'const CART = {CJ};',
+        html, flags=re.DOTALL
+    )
 
-if __name__ == '__main__':
+    Path("index.html").write_text(html, encoding="utf-8")
+    print(f"✓ index.html actualizado — {len(art)} artículos, {len(cart)} películas")
+
+if __name__ == "__main__":
     build()

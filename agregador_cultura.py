@@ -205,6 +205,14 @@ FUENTES = [
         "idioma":   "es",
     },
 
+    # S8 Cinema — festival de cine experimental de Galicia, crítica y entrevistas
+    {
+        "url":      "https://s8cinema.com/feed/",
+        "cat_pref": "cine",
+        "nombre":   "S8 Cinema",
+        "idioma":   "es",
+    },
+
     # Radio UNAM — noticias, cultura, ciencia (feed confirmado jun-2026)
     # Nota: el servidor bloquea requests desde IPs externas pero el feed
     # es accesible desde navegador. GitHub Actions puede tener el mismo problema;
@@ -215,6 +223,19 @@ FUENTES = [
         "nombre":   "Radio UNAM",
         "idioma":   "es",
     },
+
+
+    # ── CANALES YOUTUBE — CRÍTICA Y ANÁLISIS DE CINE EN ESPAÑOL ────────────────────
+    {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UC_tTK6d5PI3u4IMf39TIRZA",
+     "cat_pref":"cine","nombre":"Subterráneo",     "idioma":"es","filtro":"cine"},
+    {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCHFuv4lXAboKNH9Uu84hKjw",
+     "cat_pref":"cine","nombre":"Fuera de Foco",   "idioma":"es","filtro":"cine"},
+    {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCU-3M9L6PuahR--g2TN03pA",
+     "cat_pref":"cine","nombre":"Zep Films",       "idioma":"es","filtro":"cine"},
+    {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCVahH6dIcO_pI2yZyqYhF0w",
+     "cat_pref":"cine","nombre":"Álvaro Wasabi",   "idioma":"es","filtro":"cine"},
+    {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCukfhmwOCX_LMlldg9gO9NQ",
+     "cat_pref":"cine","nombre":"SensaCine México","idioma":"es","filtro":"cine"},
 
     # ── PENDIENTES (sin RSS funcional a jun-2026) ─────────────────────────────
     # Canal 14 / Once TV: timeouts persistentes — su YouTube (@OnceMexico)
@@ -325,15 +346,44 @@ def init_db(conn):
 def url_hash(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:12]
 
-# ─── CLASIFICACIÓN ────────────────────────────────────────────────────────────
+# ─── FILTRO DE CONTENIDO IRRELEVANTE ─────────────────────────────────────────
+_BASURA = [
+    "futbol","fútbol","mundial","gol","partido","liga mx","nfl","nba","mlb",
+    "boxeo","mma","f1","formula 1","playera","jersey","fichaje",
+    "reality","got talent","gran hermano","la casa de los famosos",
+    "masterchef","survivor","tiktok viral","influencer",
+    "asesinato","narcotráfico","cártel","secuestro","elecciones",
+    "candidato","partido político","senado","diputado",
+    "kardashian","#shorts","#short","#viral",
+]
 
 _TRANS = str.maketrans("áéíóúàèìòùäëïöüñ", "aeiouaeiouaeioun")
 
+def _tn(s: str) -> str:
+    return s.lower().translate(_TRANS)
+
+def es_valido(titulo: str, filtro: str = "") -> bool:
+    tn = _tn(titulo)
+    if "#short" in tn:
+        return False
+    hits = sum(1 for w in _BASURA if _tn(w) in tn)
+    if hits >= 2:
+        return False
+    if filtro == "cine":
+        ok = ["pelicul","film","cine","serie","director","guion","estreno",
+              "critica","reseña","analisis","oscar","festival","actor","actriz",
+              "documental","trailer","clasico","historia","nuevo","mejor",
+              "cinemat","produccion"]
+        if not any(_tn(k) in tn for k in ok):
+            return False
+    return True
+
+# ─── CLASIFICACIÓN ────────────────────────────────────────────────────────────
 def clasificar(titulo: str, resumen: str, cat_pref: str) -> str:
-    texto = (titulo + " " + (resumen or "")).lower().translate(_TRANS)
+    texto = _tn(titulo + " " + (resumen or ""))
     scores = {}
     for cat, kws in KEYWORDS.items():
-        scores[cat] = sum(1 for k in kws if k.translate(_TRANS) in texto)
+        scores[cat] = sum(1 for k in kws if _tn(k) in texto)
     mejor = max(scores, key=scores.get)
     return mejor if scores[mejor] > 0 else cat_pref
 
@@ -372,12 +422,15 @@ def scrape_fuente(f: dict) -> list[dict]:
         print(f"  ✗ {e}")
         return []
 
+    filtro = f.get("filtro", "")
     items = []
     for entry in feed.entries[:20]:
         url = entry.get("link", "")
         if not url:
             continue
         titulo  = limpiar_html(entry.get("title", "Sin título"))
+        if not es_valido(titulo, filtro):
+            continue
         resumen = limpiar_html(entry.get("summary", "") or entry.get("description", ""))
         imagen  = extraer_imagen(entry)
         fecha_pub = ""
@@ -421,6 +474,7 @@ def guardar(conn, items: list[dict]) -> int:
 # ─── EXPORT JSON ──────────────────────────────────────────────────────────────
 
 def exportar_json(conn, path: str = JSON_PATH):
+    import random
     rows = conn.execute("""
         SELECT id,titulo,url,resumen,imagen,fuente,idioma,categoria,fecha_pub
         FROM articulos
@@ -429,9 +483,28 @@ def exportar_json(conn, path: str = JSON_PATH):
     """).fetchall()
     cols = ["id","titulo","url","resumen","imagen","fuente","idioma","categoria","fecha_pub"]
     data = [dict(zip(cols, r)) for r in rows]
+
+    # Separar por idioma: español tiene el doble de peso en el mix
+    es  = [a for a in data if a.get("idioma") == "es"]
+    en  = [a for a in data if a.get("idioma") == "en"]
+    oth = [a for a in data if a.get("idioma") not in ("es","en")]
+
+    random.shuffle(es)
+    random.shuffle(en)
+    random.shuffle(oth)
+
+    # Intercalar: 2 en español por cada 1 en inglés
+    mezclado = []
+    i_es, i_en = 0, 0
+    while i_es < len(es) or i_en < len(en):
+        if i_es < len(es): mezclado.append(es[i_es]); i_es += 1
+        if i_es < len(es): mezclado.append(es[i_es]); i_es += 1
+        if i_en < len(en): mezclado.append(en[i_en]); i_en += 1
+    mezclado += oth
+
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"✓ JSON exportado → {path}  ({len(data)} artículos)")
+        json.dump(mezclado, f, ensure_ascii=False, indent=2)
+    print(f"✓ JSON exportado → {path}  ({len(mezclado)} artículos, proporción 2:1 ES/EN)")
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 

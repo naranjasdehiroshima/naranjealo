@@ -1,1 +1,46 @@
+name: Actualizar Naranjealo
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # 8am Ciudad de México (UTC-6) todos los días
+  workflow_dispatch:        # también permite correrlo manualmente desde GitHub
+
+permissions:
+  contents: write           # necesario para hacer push del JSON generado
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr scraper de noticias
+        run: python3 agregador_cultura.py --run --export-json
+
+      - name: Correr fuentes especiales (Canal 22.2 + Filmoteca Maldita)
+        run: python3 naranjealo_extra.py --merge articulos.json
+
+      - name: Correr scraper de cartelera
+        run: python3 naranjealo_cartelera.py
+
+      - name: Regenerar index.html con datos frescos
+        run: python3 build_index.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name  "Naranjealo Bot"
+          git config user.email "bot@naranjealo"
+          git add articulos.json cartelera.json index.html
+          git diff --cached --quiet || git commit -m "datos: $(date '+%Y-%m-%d %H:%M') UTC"
+          git push
 

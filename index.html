@@ -277,7 +277,7 @@ function cardH(a,i,forceNdh){
       imgW = '<div class="card-ph" style="' + phStyle(a.categoria) + ';display:flex;align-items:center;justify-content:center;padding:1rem">'
            + '<img src="' + logoUrl + '"'
            + ' style="max-width:80%;max-height:70%;object-fit:contain;opacity:.85;filter:drop-shadow(0 0 8px rgba(0,0,0,.5))"'
-           + ' onerror="this.outerHTML='' + em + ''">'
+           + ' onerror="this.style.display=\'none\'">' 
            + '</div>';
     } else {
       imgW = '<div class="card-ph" style="' + phStyle(a.categoria) + '">' + em + '</div>';

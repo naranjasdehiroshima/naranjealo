@@ -30,10 +30,18 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
 body{background:var(--bg);color:var(--tx);font-family:var(--sans);font-size:15px;line-height:1.6;overflow-x:hidden}
-.hdr{background:rgba(10,10,8,.97);backdrop-filter:blur(16px);border-bottom:1px solid var(--brd);position:sticky;top:0;z-index:200;padding:0 1rem;padding-top:env(safe-area-inset-top)}
-.hdr-row1{display:flex;align-items:center;gap:.75rem;height:52px}
-.logo{font-family:var(--serif);font-size:1.3rem;font-weight:700;font-style:italic;color:var(--org);letter-spacing:-.02em;flex:1}
-.logo span{font-size:.65rem;color:var(--mu);font-style:normal;font-family:var(--sans);font-weight:300;letter-spacing:.04em;display:block;line-height:1;margin-top:1px}
+/* ── MASTHEAD PELÍCULA ── */
+.masthead{background:#2a1f10;position:sticky;top:0;z-index:200;padding-top:env(safe-area-inset-top)}
+.film-strip{height:10px;background:#1a1208;display:flex;align-items:center;padding:0 .5rem;gap:14px;overflow:hidden}
+.film-hole{width:6px;height:6px;border-radius:50%;background:#3a2a18;flex-shrink:0}
+.masthead-inner{display:flex;align-items:center;gap:1rem;padding:.5rem 1rem;min-height:56px}
+.logo{font-family:var(--serif);font-size:clamp(1.2rem,3vw,1.8rem);font-weight:700;font-style:italic;color:var(--org);letter-spacing:-.02em;flex:1;line-height:1}
+.logo span{font-size:.6rem;color:#8a7a60;font-style:normal;font-family:var(--sans);font-weight:300;letter-spacing:.18em;text-transform:uppercase;display:block;margin-top:.25rem}
+.masthead-ndh{font-family:var(--sans);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:#8a7a60;text-align:right;line-height:1.6;flex-shrink:0}
+.masthead-ndh a{color:var(--org);text-decoration:none}
+.masthead-ndh a:hover{color:var(--org2)}
+.hdr{background:#120a05;border-bottom:1px solid var(--brd);padding:0 1rem}
+.hdr-row1{display:flex;align-items:center;gap:.75rem;height:44px}
 .shuf{background:none;border:1px solid var(--brd);color:var(--mu);font-size:1rem;width:34px;height:34px;border-radius:3px;cursor:pointer;flex-shrink:0;transition:color .15s,border-color .15s}
 .shuf:hover{border-color:var(--org);color:var(--org)}
 .search-wrap{position:relative;flex-shrink:0}
@@ -145,20 +153,27 @@ footer a:hover{color:var(--org2)}
 </style>
 </head>
 <body>
-<header class="hdr">
-  <div class="hdr-row1">
+<header class="masthead">
+  <div class="film-strip"><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div></div>
+  <div class="masthead-inner">
     <div class="logo">Naranjealo <span>arte · cine · arqueología · cultura</span></div>
-    <button class="shuf" id="btn-shuffle" title="Mezclar">⇄</button>
-    <div class="search-wrap">
-      <span class="sico">⌕</span>
-      <input class="sinp" id="q" type="search" placeholder="Buscar…" autocomplete="off">
-    </div>
+    <div class="masthead-ndh">un proyecto de<br><a href="https://www.naranjasdehiroshima.com" target="_blank" rel="noopener">Naranjas de Hiroshima</a></div>
   </div>
-  <div class="tab-bar" id="tab-bar">
-    <button class="tab on"      id="tab-n" data-pane="n">Noticias</button>
-    <button class="tab ndh-tab" id="tab-a" data-pane="a">Archivo NdH</button>
-    <button class="tab"         id="tab-c" data-pane="c">Cartelera CDMX</button>
-    <button class="tab pol-tab" id="tab-p" data-pane="p">Política</button>
+  <div class="film-strip"><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div><div class="film-hole"></div></div>
+  <div class="hdr">
+    <div class="hdr-row1">
+      <button class="shuf" id="btn-shuffle" title="Mezclar">⇄</button>
+      <div class="search-wrap">
+        <span class="sico">⌕</span>
+        <input class="sinp" id="q" type="search" placeholder="Buscar…" autocomplete="off">
+      </div>
+    </div>
+    <div class="tab-bar" id="tab-bar">
+      <button class="tab on"      id="tab-n" data-pane="n">Noticias</button>
+      <button class="tab ndh-tab" id="tab-a" data-pane="a">Archivo NdH</button>
+      <button class="tab"         id="tab-c" data-pane="c">Cartelera CDMX</button>
+      <button class="tab pol-tab" id="tab-p" data-pane="p">Política</button>
+    </div>
   </div>
 </header>
 

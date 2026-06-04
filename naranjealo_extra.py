@@ -95,6 +95,9 @@ def scrape_mx_nuestro_cine() -> list[dict]:
         img  = slide.find('img')
 
         titulo = h1.get_text(strip=True) if h1 else ''
+        # Si no hay h1, usar el alt de la imagen
+        if not titulo and img:
+            titulo = img.get('alt', '').strip()
         if not titulo:
             continue
 

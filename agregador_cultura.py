@@ -315,6 +315,26 @@ FUENTES = [
         "idioma":   "es",
     },
 
+
+    # ── RESTAURACIÓN / ARCHIVOS FÍLMICOS ADICIONALES ─────────────────────
+    {
+        "url":      "https://silentlondon.co.uk/feed/",
+        "cat_pref": "archivos",
+        "nombre":   "Silent London",
+        "idioma":   "en",
+    },
+    {
+        "url":      "https://www.eastman.org/rss.xml",
+        "cat_pref": "archivos",
+        "nombre":   "George Eastman Museum",
+        "idioma":   "en",
+    },
+    {
+        "url":      "https://www.cclm.cl/feed/",
+        "cat_pref": "cine",
+        "nombre":   "Cineteca Nacional de Chile",
+        "idioma":   "es",
+    },
     # ── PENDIENTES (sin RSS funcional a jun-2026) ─────────────────────────────
     # Canal 14 / Once TV: timeouts persistentes — su YouTube (@OnceMexico)
     #   tiene contenido variado sin foco cultural claro.
@@ -594,9 +614,9 @@ def enriquecer_imagenes(conn, limite: int = 200):
         uid, url = id_url
         try:
             r = req.get(url, headers=hdrs, timeout=6, allow_redirects=True)
-            m = re.search(r'<meta[^>]+(?:property|name)=["']og:image["'][^>]+content=["']([^"']+)["']', r.text)
+            m = re.search(r'og:image[^>]*content=["\']([^"\']+)', r.text) or re.search(r'content=["\']([^"\']+)[^>]*og:image', r.text)
             if not m:
-                m = re.search(r'<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']og:image["']', r.text)
+                m = None  # already handled above
             if m:
                 img = m.group(1).strip()
                 if img.startswith('http'):

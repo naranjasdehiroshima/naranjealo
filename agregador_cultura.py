@@ -115,12 +115,7 @@ FUENTES = [
         "nombre":   "Cineuropa (ES)",
         "idioma":   "es",
     },
-    {
-        "url":      "https://variety.com/v/film/feed/",
-        "cat_pref": "cine",
-        "nombre":   "Variety Film",
-        "idioma":   "en",
-    },
+
 
     # ── ARTE / MUSEOS ─────────────────────────────────────────────────────────
     {
@@ -237,6 +232,89 @@ FUENTES = [
     {"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCukfhmwOCX_LMlldg9gO9NQ",
      "cat_pref":"cine","nombre":"SensaCine México","idioma":"es","filtro":"cine"},
 
+
+    # ── DOCUMENTAL ────────────────────────────────────────────────────────────
+    {
+        "url":      "https://documentary.org/rss.xml",
+        "cat_pref": "documental",
+        "nombre":   "IDA (International Documentary Assoc.)",
+        "idioma":   "en",
+        "filtro":   "cine",
+    },
+    {
+        "url":      "https://blog.nfb.ca/feed/",
+        "cat_pref": "documental",
+        "nombre":   "NFB Blog (National Film Board Canada)",
+        "idioma":   "en",
+        "filtro":   "cine",
+    },
+    {
+        "url":      "https://filmmakermagazine.com/feed/",
+        "cat_pref": "cine",
+        "nombre":   "Filmmaker Magazine",
+        "idioma":   "en",
+        "filtro":   "cine",
+    },
+
+    # ── ARCHIVOS / PRESERVACIÓN / DOMINIO PÚBLICO ─────────────────────────────
+    {
+        "url":      "https://blog.archive.org/feed/",
+        "cat_pref": "archivos",
+        "nombre":   "Internet Archive Blog",
+        "idioma":   "en",
+    },
+    {
+        "url":      "https://publicdomainreview.org/feed/",
+        "cat_pref": "dominio público",
+        "nombre":   "Public Domain Review",
+        "idioma":   "en",
+    },
+    {
+        "url":      "https://www.openculture.com/feed",
+        "cat_pref": "cultura",
+        "nombre":   "Open Culture",
+        "idioma":   "en",
+    },
+
+    # ── FILMOTECAS ────────────────────────────────────────────────────────────
+    {
+        "url":      "https://cinemateca.org.br/feed/",
+        "cat_pref": "archivos",
+        "nombre":   "Cinemateca Brasileira",
+        "idioma":   "pt",
+    },
+
+    # ── MÚSICA ESPECIALIZADA ──────────────────────────────────────────────────
+    {
+        "url":      "https://www.youtube.com/feeds/videos.xml?channel_id=UCcp-HjtmTMeIJ-0RrSHSGLA",
+        "cat_pref": "música",
+        "nombre":   "Rick Beato",
+        "idioma":   "en",
+        "filtro":   "musica",
+    },
+    {
+        "url":      "https://www.gladyspalmera.com/feed/",
+        "cat_pref": "música",
+        "nombre":   "Radio Gladys Palmera",
+        "idioma":   "es",
+    },
+
+    # ── NARANJAS DE HIROSHIMA ─────────────────────────────────────────────────
+    {
+        "url":      "https://www.naranjasdehiroshima.com/feeds/posts/default?alt=rss",
+        "cat_pref": "cine",
+        "nombre":   "Naranjas de Hiroshima",
+        "idioma":   "es",
+    },
+
+    # ── MEDIOS ALTERNATIVOS / PERIODISMO ──────────────────────────────────────
+    {
+        "url":      "https://www.periodismodebarrio.org/feed/",
+        "cat_pref": "cultura",
+        "nombre":   "Periodismo de Barrio",
+        "idioma":   "es",
+    },
+
     # ── PENDIENTES (sin RSS funcional a jun-2026) ─────────────────────────────
     # Canal 14 / Once TV: timeouts persistentes — su YouTube (@OnceMexico)
     #   tiene contenido variado sin foco cultural claro.
@@ -315,6 +393,23 @@ KEYWORDS = {
         "culture", "literature", "book", "writer", "poetry", "novel",
         "heritage", "tradition", "ceremony", "indigenous", "language",
     ],
+    "documental": [
+        "documental", "documentary", "documentaire", "non-fiction",
+        "reportaje", "cronista", "periodismo", "testimonio",
+        "doc film", "doc series", "nfb", "hot docs", "idfa",
+    ],
+    "archivos": [
+        "archivo", "archiv", "preservación", "preservation", "restauración",
+        "restoration", "filmoteca", "cinemateca", "patrimonio fílmico",
+        "moving image archive", "film archive", "audiovisual heritage",
+        "nitrate", "nitrato", "digitization", "digitalización",
+        "amia", "fiaf", "fiat", "memoria audiovisual",
+    ],
+    "dominio público": [
+        "dominio público", "public domain", "creative commons",
+        "libre acceso", "open access", "copyleft", "licencia libre",
+        "commons", "open culture", "cultura libre", "free culture",
+    ],
 }
 
 CATEGORIAS = ["arqueología", "cine", "arte", "música", "ciencia", "naturaleza", "cultura"]
@@ -374,6 +469,12 @@ def es_valido(titulo: str, filtro: str = "") -> bool:
               "critica","reseña","analisis","oscar","festival","actor","actriz",
               "documental","trailer","clasico","historia","nuevo","mejor",
               "cinemat","produccion"]
+        if not any(_tn(k) in tn for k in ok):
+            return False
+    if filtro == "musica":
+        ok = ["music","guitar","piano","jazz","album","song","record","chord",
+              "musician","composer","vinyl","band","teoria","armonia","ritmo",
+              "instrumento","technique","producer","studio","tour","concierto"]
         if not any(_tn(k) in tn for k in ok):
             return False
     return True

@@ -572,6 +572,48 @@ def guardar(conn, items: list[dict]) -> int:
     conn.commit()
     return nuevos
 
+# ─── ENRIQUECIMIENTO DE IMÁGENES ─────────────────────────────────────────────
+
+def enriquecer_imagenes(conn, limite: int = 200):
+    """Busca og:image para artículos que no tienen imagen."""
+    import requests as req
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    hdrs = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36'}
+
+    rows = conn.execute("""
+        SELECT id, url FROM articulos
+        WHERE (imagen IS NULL OR imagen = '')
+        ORDER BY fecha_scrape DESC LIMIT ?
+    """, (limite,)).fetchall()
+
+    if not rows:
+        return 0
+
+    def fetch(id_url):
+        uid, url = id_url
+        try:
+            r = req.get(url, headers=hdrs, timeout=6, allow_redirects=True)
+            m = re.search(r'<meta[^>]+(?:property|name)=["']og:image["'][^>]+content=["']([^"']+)["']', r.text)
+            if not m:
+                m = re.search(r'<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']og:image["']', r.text)
+            if m:
+                img = m.group(1).strip()
+                if img.startswith('http'):
+                    return uid, img
+        except Exception:
+            pass
+        return uid, None
+
+    found = 0
+    with ThreadPoolExecutor(max_workers=15) as ex:
+        for uid, img in ex.map(fetch, rows):
+            if img:
+                conn.execute("UPDATE articulos SET imagen=? WHERE id=?", (img, uid))
+                found += 1
+    conn.commit()
+    return found
+
 # ─── EXPORT JSON ──────────────────────────────────────────────────────────────
 
 def exportar_json(conn, path: str = JSON_PATH):
@@ -628,6 +670,11 @@ def run_scraper():
     print(f"\n  BD acumulada por categoría:")
     for cat, n in stats:
         print(f"    {cat:<14} {n:>4}  {'█' * min(n//3,28)}")
+
+    print(f"\n  Buscando imágenes faltantes...", end="", flush=True)
+    n_imgs = enriquecer_imagenes(conn)
+    print(f" {n_imgs} nuevas")
+
     conn.close()
 
 def show_recent(n=25):

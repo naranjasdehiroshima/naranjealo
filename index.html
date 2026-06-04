@@ -268,7 +268,8 @@ function showPane(p){
   var ids = ['n','a','cartelera','p'];
   for(var i=0;i<ids.length;i++){
     var el = document.getElementById('pane-' + ids[i]);
-    if(el) el.style.display = (ids[i]===p || (p==='c' && ids[i]==='cartelera')) ? '' : 'none';
+    var show = (ids[i]===p || (p==='c' && ids[i]==='cartelera'));
+    if(el) el.style.display = show ? 'block' : 'none';
   }
   var tabs = document.querySelectorAll('.tab');
   for(var i=0;i<tabs.length;i++) tabs[i].classList.remove('on');

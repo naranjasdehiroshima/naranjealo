@@ -12,7 +12,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.751791+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.324775+00:00"
   },
   {
     "id": "HO00009692",
@@ -25,7 +25,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.751871+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.324851+00:00"
   },
   {
     "id": "HO00009716",
@@ -39,7 +39,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.751922+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.324900+00:00"
   },
   {
     "id": "HO00009423",
@@ -53,7 +53,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.751994+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.324947+00:00"
   },
   {
     "id": "HO00009688",
@@ -67,7 +67,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752035+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.324986+00:00"
   },
   {
     "id": "HO00009759",
@@ -82,7 +82,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752074+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325023+00:00"
   },
   {
     "id": "HO00009756",
@@ -98,7 +98,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752114+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325062+00:00"
   },
   {
     "id": "HO00009751",
@@ -114,7 +114,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752155+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325108+00:00"
   },
   {
     "id": "HO00009698",
@@ -129,7 +129,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752197+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325145+00:00"
   },
   {
     "id": "HO00009284",
@@ -143,20 +143,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752234+00:00"
-  },
-  {
-    "id": "HO00009777",
-    "titulo": "Rudo y cursi",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009777?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009777",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Chapultepec"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752269+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325180+00:00"
   },
   {
     "id": "HO00009686",
@@ -173,7 +160,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752303+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325214+00:00"
   },
   {
     "id": "HO00009715",
@@ -189,7 +176,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:08.752338+00:00"
+    "fecha_scrape": "2026-07-23T15:50:27.325253+00:00"
   },
   {
     "id": "HO00009566",
@@ -203,7 +190,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805554+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364163+00:00"
   },
   {
     "id": "HO00005929",
@@ -216,7 +203,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805677+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364284+00:00"
   },
   {
     "id": "HO00009089",
@@ -230,20 +217,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805714+00:00"
-  },
-  {
-    "id": "HO00009757",
-    "titulo": "Erupcja",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009757?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009757",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805790+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364321+00:00"
   },
   {
     "id": "HO00009564",
@@ -257,7 +231,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805856+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364424+00:00"
   },
   {
     "id": "HO00009687",
@@ -271,7 +245,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.805892+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364462+00:00"
   },
   {
     "id": "HO00009420",
@@ -285,7 +259,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.806020+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364558+00:00"
   },
   {
     "id": "HO00009561",
@@ -299,7 +273,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:09.806055+00:00"
+    "fecha_scrape": "2026-07-23T15:50:28.364609+00:00"
   },
   {
     "id": "HO00009616",
@@ -312,7 +286,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770174+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.953723+00:00"
   },
   {
     "id": "HO00009685",
@@ -325,7 +299,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770265+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.953820+00:00"
   },
   {
     "id": "HO00009520",
@@ -338,7 +312,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770337+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.953894+00:00"
   },
   {
     "id": "HO00009782",
@@ -351,7 +325,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770384+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.953933+00:00"
   },
   {
     "id": "HO00009558",
@@ -364,33 +338,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770419+00:00"
-  },
-  {
-    "id": "HO00009796",
-    "titulo": "Con un pie en la gloria",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009796?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009796",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770453+00:00"
-  },
-  {
-    "id": "HO00009811",
-    "titulo": "Cuatro noches contigo",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009811?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009811",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770485+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.953968+00:00"
   },
   {
     "id": "HO00009801",
@@ -403,7 +351,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770522+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954001+00:00"
   },
   {
     "id": "HO00009386",
@@ -416,7 +364,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770554+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954035+00:00"
   },
   {
     "id": "HO00009784",
@@ -429,7 +377,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770588+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954070+00:00"
   },
   {
     "id": "HO00009785",
@@ -442,7 +390,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770623+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954107+00:00"
   },
   {
     "id": "HO00009779",
@@ -455,7 +403,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770657+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954143+00:00"
   },
   {
     "id": "HO00009681",
@@ -468,20 +416,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770719+00:00"
-  },
-  {
-    "id": "HO00009775",
-    "titulo": "He nacido, pero...",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009775?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009775",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770784+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954217+00:00"
   },
   {
     "id": "HO00009783",
@@ -494,7 +429,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770816+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954281+00:00"
   },
   {
     "id": "HO00009780",
@@ -507,22 +442,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770850+00:00"
-  },
-  {
-    "id": "HO00009713",
-    "titulo": "Kiki: entregas a domicilio",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009713?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009713",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [
-      "DOB"
-    ],
-    "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770886+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954317+00:00"
   },
   {
     "id": "HO00009683",
@@ -537,7 +457,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770921+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954351+00:00"
   },
   {
     "id": "HO00009617",
@@ -552,7 +472,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.770995+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954386+00:00"
   },
   {
     "id": "HO00003287",
@@ -565,7 +485,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771042+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954421+00:00"
   },
   {
     "id": "HO00009778",
@@ -578,7 +498,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771107+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954485+00:00"
   },
   {
     "id": "HO00009781",
@@ -591,7 +511,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771297+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954704+00:00"
   },
   {
     "id": "HO00009565",
@@ -604,7 +524,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771391+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954803+00:00"
   },
   {
     "id": "HO00003054",
@@ -617,7 +537,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771453+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954869+00:00"
   },
   {
     "id": "HO00006547",
@@ -630,7 +550,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771489+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954905+00:00"
   },
   {
     "id": "HO00009776",
@@ -643,6 +563,6 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-07-22T15:28:11.771526+00:00"
+    "fecha_scrape": "2026-07-23T15:50:29.954946+00:00"
   }
 ]

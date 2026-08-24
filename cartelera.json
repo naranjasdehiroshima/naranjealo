@@ -11,7 +11,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527276+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889365+00:00"
   },
   {
     "id": "HO00001734",
@@ -24,7 +24,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527351+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889434+00:00"
   },
   {
     "id": "HO00009546",
@@ -37,7 +37,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527436+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889481+00:00"
   },
   {
     "id": "HO00009477",
@@ -51,7 +51,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527490+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889524+00:00"
   },
   {
     "id": "HO00009557",
@@ -65,21 +65,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527535+00:00"
-  },
-  {
-    "id": "HO00009786",
-    "titulo": "El inicio de la animación mexicana 1935 -1938",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009786?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009786",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Chapultepec",
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527576+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889556+00:00"
   },
   {
     "id": "HO00009793",
@@ -93,7 +79,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527615+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889585+00:00"
   },
   {
     "id": "HO00009787",
@@ -107,7 +93,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527655+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889619+00:00"
   },
   {
     "id": "HO00009759",
@@ -121,7 +107,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527691+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889651+00:00"
   },
   {
     "id": "HO00009756",
@@ -131,14 +117,13 @@
     "sala": "Cineteca Nacional",
     "sedes": [
       "Chapultepec",
-      "Las Artes",
-      "México"
+      "Las Artes"
     ],
     "versiones": [
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527727+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889679+00:00"
   },
   {
     "id": "HO00009751",
@@ -153,7 +138,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527766+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889706+00:00"
   },
   {
     "id": "HO00009698",
@@ -167,7 +152,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527803+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889732+00:00"
   },
   {
     "id": "HO00009814",
@@ -182,7 +167,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527838+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889759+00:00"
   },
   {
     "id": "HO00009761",
@@ -195,21 +180,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527873+00:00"
-  },
-  {
-    "id": "HO00009397",
-    "titulo": "Soy Cuba",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009397?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009397",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Chapultepec",
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527908+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889787+00:00"
   },
   {
     "id": "HO00008706",
@@ -223,7 +194,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:51.527944+00:00"
+    "fecha_scrape": "2026-08-24T14:35:01.889817+00:00"
   },
   {
     "id": "HO00009849",
@@ -236,7 +207,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648494+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874712+00:00"
   },
   {
     "id": "HO00008337",
@@ -249,7 +220,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648577+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874789+00:00"
   },
   {
     "id": "HO00009563",
@@ -263,7 +234,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648678+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874846+00:00"
   },
   {
     "id": "HO00009559",
@@ -277,7 +248,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648712+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874873+00:00"
   },
   {
     "id": "HO00009872",
@@ -291,7 +262,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648779+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874929+00:00"
   },
   {
     "id": "HO00009848",
@@ -304,7 +275,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648843+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.874977+00:00"
   },
   {
     "id": "HO00009846",
@@ -317,7 +288,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648879+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.875003+00:00"
   },
   {
     "id": "HO00009813",
@@ -330,7 +301,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.648947+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.875053+00:00"
   },
   {
     "id": "HO00009555",
@@ -344,7 +315,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:52.649041+00:00"
+    "fecha_scrape": "2026-08-24T14:35:02.875106+00:00"
   },
   {
     "id": "HO00009946",
@@ -357,7 +328,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774091+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652477+00:00"
   },
   {
     "id": "HO00009808",
@@ -370,20 +341,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774147+00:00"
-  },
-  {
-    "id": "HO00009926",
-    "titulo": "Clausura La Matatena 2026",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009926?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009926",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774186+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652526+00:00"
   },
   {
     "id": "HO00009528",
@@ -396,7 +354,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774222+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652558+00:00"
   },
   {
     "id": "HO00009947",
@@ -409,7 +367,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774257+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652589+00:00"
   },
   {
     "id": "HO00009788",
@@ -422,7 +380,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774323+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652642+00:00"
   },
   {
     "id": "HO00009139",
@@ -435,20 +393,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774358+00:00"
-  },
-  {
-    "id": "HO00009880",
-    "titulo": "El rey de los vagabundos",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009880?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009880",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774416+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652671+00:00"
   },
   {
     "id": "HO00009089",
@@ -461,7 +406,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774456+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652699+00:00"
   },
   {
     "id": "HO00008555",
@@ -474,7 +419,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774490+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652726+00:00"
   },
   {
     "id": "HO00009707",
@@ -487,7 +432,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774554+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652777+00:00"
   },
   {
     "id": "HO00009792",
@@ -500,7 +445,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774586+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652807+00:00"
   },
   {
     "id": "HO00000468",
@@ -513,7 +458,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774621+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652835+00:00"
   },
   {
     "id": "HO00009812",
@@ -526,7 +471,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774654+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652861+00:00"
   },
   {
     "id": "HO00009955",
@@ -539,7 +484,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774726+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652912+00:00"
   },
   {
     "id": "HO00009790",
@@ -552,7 +497,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774793+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652961+00:00"
   },
   {
     "id": "HO00007608",
@@ -565,46 +510,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774832+00:00"
-  },
-  {
-    "id": "HO00009886",
-    "titulo": "Matatena 31 Programa 12",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009886?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009886",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774868+00:00"
-  },
-  {
-    "id": "HO00009883",
-    "titulo": "Mumbo Jumbo",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009883?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009883",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.774967+00:00"
-  },
-  {
-    "id": "HO00009923",
-    "titulo": "No sabés con quién estás hablando",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009923?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009923",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775003+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.652986+00:00"
   },
   {
     "id": "HO00009847",
@@ -617,7 +523,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775040+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653034+00:00"
   },
   {
     "id": "HO00009420",
@@ -630,7 +536,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775073+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653060+00:00"
   },
   {
     "id": "HO00009945",
@@ -643,7 +549,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775105+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653085+00:00"
   },
   {
     "id": "HO00009145",
@@ -656,7 +562,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775137+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653109+00:00"
   },
   {
     "id": "HO00009789",
@@ -669,7 +575,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775169+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653134+00:00"
   },
   {
     "id": "HO00009810",
@@ -682,7 +588,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775201+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653160+00:00"
   },
   {
     "id": "HO00009561",
@@ -695,7 +601,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775234+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653185+00:00"
   },
   {
     "id": "HO00009944",
@@ -708,20 +614,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775265+00:00"
-  },
-  {
-    "id": "HO00009842",
-    "titulo": "Santa Zeta",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009842?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009842",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775297+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653210+00:00"
   },
   {
     "id": "HO00009791",
@@ -734,7 +627,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775357+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653273+00:00"
   },
   {
     "id": "HO00009280",
@@ -747,7 +640,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775412+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653300+00:00"
   },
   {
     "id": "HO00009954",
@@ -760,7 +653,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775445+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653325+00:00"
   },
   {
     "id": "HO00009565",
@@ -773,22 +666,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775477+00:00"
-  },
-  {
-    "id": "HO00009686",
-    "titulo": "Toy Story 5",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009686?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009686",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [
-      "DOB"
-    ],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775509+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653351+00:00"
   },
   {
     "id": "HO00009256",
@@ -801,7 +679,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775575+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653401+00:00"
   },
   {
     "id": "HO00009762",
@@ -814,19 +692,6 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775607+00:00"
-  },
-  {
-    "id": "HO00009843",
-    "titulo": "Zona cero",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009843?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009843",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-08-23T14:18:54.775643+00:00"
+    "fecha_scrape": "2026-08-24T14:35:04.653428+00:00"
   }
 ]

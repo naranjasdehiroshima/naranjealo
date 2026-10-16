@@ -1,5 +1,18 @@
 [
   {
+    "id": "HO00010059",
+    "titulo": "Abandonado",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010059?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010059",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.315940+00:00"
+  },
+  {
     "id": "HO00009758",
     "titulo": "Animanimales",
     "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009758?referenceScheme=Cinema&allowPlaceHolder",
@@ -10,7 +23,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294105+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316012+00:00"
+  },
+  {
+    "id": "HO00010235",
+    "titulo": "Batman Azteca: choque de imperios",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010235?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010235",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316067+00:00"
   },
   {
     "id": "HO00010160",
@@ -25,7 +51,7 @@
       "VO"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294174+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316117+00:00"
   },
   {
     "id": "HO00010159",
@@ -38,7 +64,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294229+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316162+00:00"
   },
   {
     "id": "HO00010161",
@@ -51,7 +77,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294274+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316204+00:00"
+  },
+  {
+    "id": "HO00010237",
+    "titulo": "Circo pa´l barrio-El documental",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010237?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010237",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316245+00:00"
   },
   {
     "id": "HO00009936",
@@ -65,7 +104,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294317+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316288+00:00"
   },
   {
     "id": "HO00010075",
@@ -80,7 +119,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294356+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316324+00:00"
   },
   {
     "id": "HO00010094",
@@ -95,7 +134,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294395+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316360+00:00"
+  },
+  {
+    "id": "HO00010062",
+    "titulo": "El camino",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010062?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010062",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316419+00:00"
   },
   {
     "id": "HO00010064",
@@ -108,7 +160,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294433+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316458+00:00"
+  },
+  {
+    "id": "HO00010061",
+    "titulo": "El desconocido del gran arco",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010061?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010061",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316499+00:00"
   },
   {
     "id": "HO00010078",
@@ -122,7 +187,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294481+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316544+00:00"
   },
   {
     "id": "HO00009875",
@@ -135,7 +200,33 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294517+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316579+00:00"
+  },
+  {
+    "id": "HO00010226",
+    "titulo": "Ghiexhuba/La soledad",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010226?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010226",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316612+00:00"
+  },
+  {
+    "id": "HO00010215",
+    "titulo": "Guiexhuba",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010215?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010215",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316645+00:00"
   },
   {
     "id": "HO00010076",
@@ -148,20 +239,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294578+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316678+00:00"
   },
   {
-    "id": "HO00008162",
-    "titulo": "Jíkuri. Viaje al país de los Tarahumaras",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00008162?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00008162",
+    "id": "HO00009960",
+    "titulo": "La copia perfecta",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009960?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009960",
     "sala": "Cineteca Nacional",
     "sedes": [
       "Chapultepec"
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294617+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316712+00:00"
   },
   {
     "id": "HO00009278",
@@ -175,7 +266,98 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294652+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.316746+00:00"
+  },
+  {
+    "id": "HO00010224",
+    "titulo": "La pelota es el Sol/8 Venado garra de jaguar",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010224?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010224",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316780+00:00"
+  },
+  {
+    "id": "HO00010231",
+    "titulo": "La pelota es el Sol/Guiexhuba",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010231?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010231",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316819+00:00"
+  },
+  {
+    "id": "HO00010218",
+    "titulo": "La pelota es el Sol/Maaya Ko´Olelo´Ob. Mujeres May",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010218?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010218",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316857+00:00"
+  },
+  {
+    "id": "HO00010229",
+    "titulo": "La pelota es el Sol/Reconociendo Ecatepec/La soled",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010229?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010229",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316892+00:00"
+  },
+  {
+    "id": "HO00010233",
+    "titulo": "La pelota es el Sol/Soy Yuyé",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010233?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010233",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316931+00:00"
+  },
+  {
+    "id": "HO00010222",
+    "titulo": "Maaya Ko´Olelo´Ob. Mujeres Mayas. Fortaleza y sabi",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010222?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010222",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.316966+00:00"
+  },
+  {
+    "id": "HO00010225",
+    "titulo": "MaayaKo´Olelo´Ob.Mujeres Mayas.Fortaleza y sabidur",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010225?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010225",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317001+00:00"
   },
   {
     "id": "HO00009939",
@@ -191,7 +373,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294691+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.317033+00:00"
   },
   {
     "id": "HO00010065",
@@ -208,7 +390,124 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294725+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.317067+00:00"
+  },
+  {
+    "id": "HO00010063",
+    "titulo": "Me encontraste",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010063?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010063",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317101+00:00"
+  },
+  {
+    "id": "HO00010216",
+    "titulo": "No somos diablas/Soy Yuye",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010216?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010216",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317141+00:00"
+  },
+  {
+    "id": "HO00010217",
+    "titulo": "Nosotros/8 venado garra de jaguar",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010217?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010217",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317175+00:00"
+  },
+  {
+    "id": "HO00010214",
+    "titulo": "Nosotros/Batman Azteca: Choque de imperios",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010214?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010214",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317209+00:00"
+  },
+  {
+    "id": "HO00010227",
+    "titulo": "Nosotros/Soy Yuyé",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010227?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010227",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317246+00:00"
+  },
+  {
+    "id": "HO00010220",
+    "titulo": "Reconociendo Ecatepec",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010220?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010220",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317280+00:00"
+  },
+  {
+    "id": "HO00010221",
+    "titulo": "Reconociendo Ecatepec/No somos diablas/La soledad",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010221?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010221",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317313+00:00"
+  },
+  {
+    "id": "HO00010234",
+    "titulo": "Revolución contra el algoritmo/8 venado garra de j",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010234?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010234",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317348+00:00"
+  },
+  {
+    "id": "HO00010219",
+    "titulo": "Revolución contra el algoritmo/Nosotros /La pelota",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010219?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010219",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317403+00:00"
   },
   {
     "id": "HO00010096",
@@ -223,7 +522,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:17.294760+00:00"
+    "fecha_scrape": "2026-10-16T17:47:13.317441+00:00"
+  },
+  {
+    "id": "HO00010060",
+    "titulo": "Solo una ilusión",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010060?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010060",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Chapultepec"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:13.317480+00:00"
   },
   {
     "id": "HO00009933",
@@ -238,7 +550,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.915820+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339440+00:00"
   },
   {
     "id": "HO00010157",
@@ -251,20 +563,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.915872+00:00"
-  },
-  {
-    "id": "HO00010155",
-    "titulo": "Charlas Minimalismo Estadounidense",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010155?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010155",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.915909+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339491+00:00"
   },
   {
     "id": "HO00010156",
@@ -279,7 +578,7 @@
       "VO"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.915947+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339539+00:00"
   },
   {
     "id": "HO00009562",
@@ -293,7 +592,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916079+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339671+00:00"
   },
   {
     "id": "HO00009935",
@@ -306,7 +605,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916114+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339708+00:00"
   },
   {
     "id": "HO00010095",
@@ -319,7 +618,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916147+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339741+00:00"
   },
   {
     "id": "HO00009426",
@@ -333,7 +632,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916239+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339839+00:00"
   },
   {
     "id": "HO00009931",
@@ -349,7 +648,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916272+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339872+00:00"
   },
   {
     "id": "HO00009958",
@@ -364,7 +663,20 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916305+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.339911+00:00"
+  },
+  {
+    "id": "HO00003484",
+    "titulo": "Pueblo de madera",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00003484?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00003484",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Las Artes"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:15.339947+00:00"
   },
   {
     "id": "HO00009932",
@@ -377,7 +689,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:18.916368+00:00"
+    "fecha_scrape": "2026-10-16T17:47:15.340014+00:00"
   },
   {
     "id": "HO00010091",
@@ -390,7 +702,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265363+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166060+00:00"
   },
   {
     "id": "HO00000529",
@@ -403,7 +715,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265413+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166116+00:00"
+  },
+  {
+    "id": "HO00010239",
+    "titulo": "Charla con Nicolás Echevarría",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010239?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010239",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:19.166164+00:00"
   },
   {
     "id": "HO00010127",
@@ -416,7 +741,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265451+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166202+00:00"
   },
   {
     "id": "HO00010153",
@@ -429,7 +754,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265488+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166239+00:00"
   },
   {
     "id": "HO00009477",
@@ -442,7 +767,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265523+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166275+00:00"
   },
   {
     "id": "HO00009956",
@@ -457,7 +782,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265585+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166316+00:00"
   },
   {
     "id": "HO00008666",
@@ -470,7 +795,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265621+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166352+00:00"
   },
   {
     "id": "HO00009934",
@@ -483,7 +808,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265685+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166441+00:00"
+  },
+  {
+    "id": "HO00000835",
+    "titulo": "Eco de la montaña",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00000835?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00000835",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:19.166478+00:00"
   },
   {
     "id": "HO00010126",
@@ -496,7 +834,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265779+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166582+00:00"
   },
   {
     "id": "HO00009792",
@@ -509,7 +847,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265841+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166647+00:00"
   },
   {
     "id": "HO00009424",
@@ -522,7 +860,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265874+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166681+00:00"
   },
   {
     "id": "HO00009929",
@@ -535,7 +873,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265908+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166716+00:00"
   },
   {
     "id": "HO00009787",
@@ -548,7 +886,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.265972+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166788+00:00"
+  },
+  {
+    "id": "HO00010134",
+    "titulo": "La pasión de Iztapalapa",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010134?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010134",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:19.166823+00:00"
   },
   {
     "id": "HO00009790",
@@ -561,7 +912,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266005+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166856+00:00"
   },
   {
     "id": "HO00009763",
@@ -574,7 +925,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266038+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166897+00:00"
   },
   {
     "id": "HO00008486",
@@ -587,7 +938,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266071+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166933+00:00"
   },
   {
     "id": "HO00010133",
@@ -602,32 +953,47 @@
       "ESP"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266106+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.166967+00:00"
   },
   {
-    "id": "HO00009847",
-    "titulo": "Oh, fortuna",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009847?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009847",
+    "id": "HO00000201",
+    "titulo": "Niño Fidencio, El Taumaturgo de Espinazo",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00000201?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00000201",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [
+      "ESP"
+    ],
+    "clasificacion": "",
+    "fecha_scrape": "2026-10-16T17:47:19.167064+00:00"
+  },
+  {
+    "id": "HO00008866",
+    "titulo": "Poetas campesinos",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00008866?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00008866",
     "sala": "Cineteca Nacional",
     "sedes": [
       "México"
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266197+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.167099+00:00"
   },
   {
-    "id": "HO00009555",
-    "titulo": "Tus dos muertos",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00009555?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00009555",
+    "id": "HO00010132",
+    "titulo": "Teshuinada, Semana Santa tarahumara",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010132?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010132",
     "sala": "Cineteca Nacional",
     "sedes": [
       "México"
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-15T17:58:21.266291+00:00"
+    "fecha_scrape": "2026-10-16T17:47:19.167193+00:00"
   }
 ]

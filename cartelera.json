@@ -10,7 +10,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496092+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187702+00:00"
   },
   {
     "id": "HO00010124",
@@ -24,7 +24,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496164+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187771+00:00"
   },
   {
     "id": "HO00010094",
@@ -39,7 +39,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496214+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187814+00:00"
   },
   {
     "id": "HO00010078",
@@ -53,7 +53,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496262+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187854+00:00"
   },
   {
     "id": "HO00010136",
@@ -66,20 +66,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496301+00:00"
-  },
-  {
-    "id": "HO00010276",
-    "titulo": "Familia teme enfrentar una nueva noche de terro",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010276?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010276",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Chapultepec"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496340+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187889+00:00"
   },
   {
     "id": "HO00010122",
@@ -94,7 +81,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496385+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187919+00:00"
   },
   {
     "id": "HO00009939",
@@ -110,7 +97,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496430+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187951+00:00"
   },
   {
     "id": "HO00010065",
@@ -127,7 +114,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496494+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.187982+00:00"
   },
   {
     "id": "HO00010096",
@@ -142,7 +129,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496539+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.188014+00:00"
   },
   {
     "id": "HO00010058",
@@ -156,7 +143,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496581+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.188040+00:00"
   },
   {
     "id": "HO00010277",
@@ -169,7 +156,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496620+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.188070+00:00"
   },
   {
     "id": "HO00010123",
@@ -185,7 +172,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496663+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.188100+00:00"
   },
   {
     "id": "HO00010348",
@@ -202,46 +189,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:02.496703+00:00"
-  },
-  {
-    "id": "HO00010171",
-    "titulo": "#AguantenLosVamosAyudar",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010171?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010171",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.137960+00:00"
-  },
-  {
-    "id": "HO00010176",
-    "titulo": "Buenos días, buenas noches, buenas tardes",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010176?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010176",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138016+00:00"
-  },
-  {
-    "id": "HO00010177",
-    "titulo": "Cada vez, una sola vez: Amazonia",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010177?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010177",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138061+00:00"
+    "fecha_scrape": "2026-11-01T18:42:14.188130+00:00"
   },
   {
     "id": "HO00010157",
@@ -254,7 +202,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138099+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473322+00:00"
   },
   {
     "id": "HO00009936",
@@ -267,20 +215,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138168+00:00"
-  },
-  {
-    "id": "HO00010180",
-    "titulo": "Cuatas",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010180?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010180",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138202+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473402+00:00"
   },
   {
     "id": "HO00010075",
@@ -294,20 +229,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138235+00:00"
-  },
-  {
-    "id": "HO00010183",
-    "titulo": "El tigre del este",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010183?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010183",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138300+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473432+00:00"
   },
   {
     "id": "HO00009562",
@@ -321,7 +243,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138335+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473487+00:00"
   },
   {
     "id": "HO00009935",
@@ -334,7 +256,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138369+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473513+00:00"
   },
   {
     "id": "HO00010095",
@@ -347,7 +269,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138408+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473539+00:00"
   },
   {
     "id": "HO00009930",
@@ -361,46 +283,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138462+00:00"
-  },
-  {
-    "id": "HO00010193",
-    "titulo": "Mex-I-Can",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010193?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010193",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138601+00:00"
-  },
-  {
-    "id": "HO00010142",
-    "titulo": "Querida Fátima",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010142?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010142",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138636+00:00"
-  },
-  {
-    "id": "HO00010206",
-    "titulo": "Sombras en el ocaso",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010206?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010206",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:05.138700+00:00"
+    "fecha_scrape": "2026-11-01T18:42:16.473572+00:00"
   },
   {
     "id": "HO00010280",
@@ -413,7 +296,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.909785+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647131+00:00"
   },
   {
     "id": "HO00010091",
@@ -426,7 +309,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.909838+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647186+00:00"
   },
   {
     "id": "HO00000529",
@@ -439,7 +322,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.909877+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647217+00:00"
   },
   {
     "id": "HO00009477",
@@ -452,7 +335,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.909913+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647245+00:00"
   },
   {
     "id": "HO00009956",
@@ -467,7 +350,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.909956+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647281+00:00"
   },
   {
     "id": "HO00009934",
@@ -480,7 +363,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910024+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.647337+00:00"
   },
   {
     "id": "HO00009609",
@@ -493,7 +376,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910127+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648678+00:00"
   },
   {
     "id": "HO00009792",
@@ -506,7 +389,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910200+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648734+00:00"
   },
   {
     "id": "HO00009424",
@@ -519,7 +402,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910236+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648761+00:00"
   },
   {
     "id": "HO00009278",
@@ -532,7 +415,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910273+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648790+00:00"
   },
   {
     "id": "HO00009787",
@@ -545,7 +428,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910309+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648816+00:00"
   },
   {
     "id": "HO00009790",
@@ -558,7 +441,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910416+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648892+00:00"
   },
   {
     "id": "HO00008486",
@@ -571,7 +454,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910470+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648919+00:00"
   },
   {
     "id": "HO00010241",
@@ -584,7 +467,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910540+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648968+00:00"
   },
   {
     "id": "HO00000201",
@@ -599,20 +482,7 @@
       "ESP"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910577+00:00"
-  },
-  {
-    "id": "HO00008866",
-    "titulo": "Poetas campesinos",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00008866?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00008866",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910614+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.648995+00:00"
   },
   {
     "id": "HO00009931",
@@ -627,7 +497,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910648+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.649020+00:00"
   },
   {
     "id": "HO00007898",
@@ -640,20 +510,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910682+00:00"
-  },
-  {
-    "id": "HO00010132",
-    "titulo": "Teshuinada, Semana Santa tarahumara",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010132?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010132",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "México"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910749+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.649046+00:00"
   },
   {
     "id": "HO00010347",
@@ -666,6 +523,6 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-10-31T18:06:08.910849+00:00"
+    "fecha_scrape": "2026-11-01T18:42:19.649143+00:00"
   }
 ]

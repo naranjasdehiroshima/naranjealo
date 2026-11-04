@@ -10,7 +10,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248682+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344134+00:00"
   },
   {
     "id": "HO00010124",
@@ -24,7 +24,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248738+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344203+00:00"
   },
   {
     "id": "HO00010094",
@@ -38,7 +38,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248770+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344245+00:00"
   },
   {
     "id": "HO00010078",
@@ -52,7 +52,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248801+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344286+00:00"
   },
   {
     "id": "HO00010136",
@@ -65,7 +65,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248825+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344319+00:00"
   },
   {
     "id": "HO00010122",
@@ -80,7 +80,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248852+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344349+00:00"
   },
   {
     "id": "HO00009939",
@@ -96,7 +96,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248876+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344379+00:00"
   },
   {
     "id": "HO00010065",
@@ -113,7 +113,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248900+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344410+00:00"
   },
   {
     "id": "HO00010096",
@@ -128,7 +128,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248922+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344437+00:00"
   },
   {
     "id": "HO00010058",
@@ -142,7 +142,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248942+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344464+00:00"
   },
   {
     "id": "HO00010123",
@@ -158,7 +158,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248964+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344494+00:00"
   },
   {
     "id": "HO00010348",
@@ -175,7 +175,20 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:31.248986+00:00"
+    "fecha_scrape": "2026-11-04T20:38:29.344525+00:00"
+  },
+  {
+    "id": "HO00010302",
+    "titulo": "Asako I & II",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010302?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010302",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Las Artes"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:31.967286+00:00"
   },
   {
     "id": "HO00010157",
@@ -188,7 +201,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710638+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967337+00:00"
   },
   {
     "id": "HO00009936",
@@ -201,7 +214,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710704+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967395+00:00"
   },
   {
     "id": "HO00010075",
@@ -215,7 +228,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710730+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967423+00:00"
   },
   {
     "id": "HO00009562",
@@ -229,7 +242,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710773+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967486+00:00"
   },
   {
     "id": "HO00009935",
@@ -242,7 +255,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710795+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967513+00:00"
   },
   {
     "id": "HO00010095",
@@ -255,7 +268,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710816+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967540+00:00"
   },
   {
     "id": "HO00009930",
@@ -269,20 +282,59 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:33.710836+00:00"
+    "fecha_scrape": "2026-11-04T20:38:31.967567+00:00"
   },
   {
-    "id": "HO00010280",
-    "titulo": "24 horas de placer",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010280?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010280",
+    "id": "HO00010301",
+    "titulo": "Meteorito",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010301?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010301",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "Las Artes"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:31.967663+00:00"
+  },
+  {
+    "id": "HO00010283",
+    "titulo": "Adriana del Río, actriz",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010283?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010283",
     "sala": "Cineteca Nacional",
     "sedes": [
       "México"
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909431+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279027+00:00"
+  },
+  {
+    "id": "HO00010281",
+    "titulo": "Ángela Morante, ¿crimen o suicidio?",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010281?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010281",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279079+00:00"
+  },
+  {
+    "id": "HO00010288",
+    "titulo": "Atlas 3",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010288?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010288",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279123+00:00"
   },
   {
     "id": "HO00010091",
@@ -295,7 +347,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909470+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279154+00:00"
+  },
+  {
+    "id": "HO00010282",
+    "titulo": "Charla ataque en el distrito",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010282?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010282",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279181+00:00"
   },
   {
     "id": "HO00009477",
@@ -308,7 +373,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909494+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279208+00:00"
   },
   {
     "id": "HO00009956",
@@ -323,7 +388,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909518+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279234+00:00"
   },
   {
     "id": "HO00009934",
@@ -336,7 +401,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909558+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279289+00:00"
+  },
+  {
+    "id": "HO00010287",
+    "titulo": "El camino de la serpiente",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010287?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010287",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279314+00:00"
   },
   {
     "id": "HO00009609",
@@ -349,7 +427,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909603+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279365+00:00"
   },
   {
     "id": "HO00009792",
@@ -362,7 +440,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909641+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279415+00:00"
   },
   {
     "id": "HO00009424",
@@ -375,7 +453,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909661+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279443+00:00"
+  },
+  {
+    "id": "HO00010285",
+    "titulo": "Krakatoa",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010285?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010285",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279470+00:00"
   },
   {
     "id": "HO00009278",
@@ -388,7 +479,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909684+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279498+00:00"
   },
   {
     "id": "HO00009787",
@@ -401,7 +492,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909705+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279527+00:00"
   },
   {
     "id": "HO00009790",
@@ -414,7 +505,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.909764+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279599+00:00"
   },
   {
     "id": "HO00008486",
@@ -427,7 +518,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.910786+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279626+00:00"
   },
   {
     "id": "HO00010241",
@@ -440,7 +531,20 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.910844+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279677+00:00"
+  },
+  {
+    "id": "HO00002162",
+    "titulo": "Paraíso (Dir. Luis Alcoriza)",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00002162?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00002162",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279704+00:00"
   },
   {
     "id": "HO00009931",
@@ -455,7 +559,20 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.910865+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279737+00:00"
+  },
+  {
+    "id": "HO00010286",
+    "titulo": "Proyecto Pelechian 1 y 2",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010286?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010286",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279762+00:00"
   },
   {
     "id": "HO00007898",
@@ -468,19 +585,32 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.910886+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279788+00:00"
   },
   {
-    "id": "HO00010347",
-    "titulo": "Yo quiero ser hombre",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010347?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010347",
+    "id": "HO00008064",
+    "titulo": "Tres colores: Blanco",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00008064?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00008064",
     "sala": "Cineteca Nacional",
     "sedes": [
       "México"
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-03T20:22:36.910960+00:00"
+    "fecha_scrape": "2026-11-04T20:38:37.279864+00:00"
+  },
+  {
+    "id": "HO00010316",
+    "titulo": "Un amor posible",
+    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010316?referenceScheme=Cinema&allowPlaceHolder",
+    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010316",
+    "sala": "Cineteca Nacional",
+    "sedes": [
+      "México"
+    ],
+    "versiones": [],
+    "clasificacion": "",
+    "fecha_scrape": "2026-11-04T20:38:37.279890+00:00"
   }
 ]

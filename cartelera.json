@@ -10,7 +10,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619478+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981514+00:00"
   },
   {
     "id": "HO00010169",
@@ -23,7 +23,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619529+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981583+00:00"
   },
   {
     "id": "HO00010168",
@@ -36,7 +36,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619558+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981626+00:00"
   },
   {
     "id": "HO00010167",
@@ -49,7 +49,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619583+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981671+00:00"
   },
   {
     "id": "HO00010124",
@@ -63,7 +63,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619602+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981706+00:00"
   },
   {
     "id": "HO00010136",
@@ -76,7 +76,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619620+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981739+00:00"
   },
   {
     "id": "HO00010122",
@@ -90,7 +90,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619676+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981853+00:00"
   },
   {
     "id": "HO00010268",
@@ -104,7 +104,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619696+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981893+00:00"
   },
   {
     "id": "HO00009939",
@@ -120,7 +120,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619714+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981929+00:00"
   },
   {
     "id": "HO00010065",
@@ -136,7 +136,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619730+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981959+00:00"
   },
   {
     "id": "HO00010269",
@@ -152,7 +152,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619748+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.981992+00:00"
   },
   {
     "id": "HO00010363",
@@ -168,7 +168,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619765+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.982021+00:00"
   },
   {
     "id": "HO00010058",
@@ -181,7 +181,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619781+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.982054+00:00"
   },
   {
     "id": "HO00010123",
@@ -197,7 +197,7 @@
       "DOB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619797+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.982083+00:00"
   },
   {
     "id": "HO00010348",
@@ -213,33 +213,7 @@
       "SUB"
     ],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:31.619813+00:00"
-  },
-  {
-    "id": "HO00010308",
-    "titulo": "Acá pasó",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010308?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010308",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040070+00:00"
-  },
-  {
-    "id": "HO00010309",
-    "titulo": "Boli derretido",
-    "poster": "https://rbvfcn.cinetecanacional.net/CDN/media/entity/get/FilmPosterGraphic/HO00010309?referenceScheme=Cinema&allowPlaceHolder",
-    "url": "https://www.cinetecanacional.net/detallePelicula.php?FilmId=HO00010309",
-    "sala": "Cineteca Nacional",
-    "sedes": [
-      "Las Artes"
-    ],
-    "versiones": [],
-    "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040109+00:00"
+    "fecha_scrape": "2026-11-11T21:00:56.982114+00:00"
   },
   {
     "id": "HO00010354",
@@ -252,7 +226,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040129+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879246+00:00"
   },
   {
     "id": "HO00010164",
@@ -265,7 +239,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040146+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879315+00:00"
   },
   {
     "id": "HO00010165",
@@ -278,7 +252,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040164+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879354+00:00"
   },
   {
     "id": "HO00010163",
@@ -291,7 +265,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040183+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879396+00:00"
   },
   {
     "id": "HO00010075",
@@ -304,7 +278,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040214+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879456+00:00"
   },
   {
     "id": "HO00010094",
@@ -317,7 +291,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040230+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879493+00:00"
   },
   {
     "id": "HO00010312",
@@ -330,7 +304,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040247+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879525+00:00"
   },
   {
     "id": "HO00010310",
@@ -343,7 +317,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040262+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879565+00:00"
   },
   {
     "id": "HO00010095",
@@ -356,7 +330,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040277+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879594+00:00"
   },
   {
     "id": "HO00009930",
@@ -369,7 +343,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040293+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879623+00:00"
   },
   {
     "id": "HO00010311",
@@ -382,7 +356,7 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040325+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879683+00:00"
   },
   {
     "id": "HO00010096",
@@ -395,6 +369,6 @@
     ],
     "versiones": [],
     "clasificacion": "",
-    "fecha_scrape": "2026-11-10T20:40:35.040413+00:00"
+    "fecha_scrape": "2026-11-11T21:00:59.879876+00:00"
   }
 ]
